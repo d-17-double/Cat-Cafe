@@ -1,0 +1,44 @@
+  body {
+    background-color: peru;
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;}
+
+    main{
+
+      background-color: saddlebrown;
+      color: gainsboro;
+    }
+
+    header{background-image: url(../images/LogoSmall.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+      min-height: 100px;}
+
+  
+  
+
+  
+   /* Configured mobile desktop viewing */
+
+
+  
+
+@media screen and (min-width: 750px) {
+    body {
+      background-color: maroon;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: moccasin;
+    } 
+
+    header{background-image: url(images/LogoLarge.png);
+      background-position: right top;
+      background-repeat: no-repeat;
+      min-height: 100px;}
+      
+
+    
+  }
+ /* Changed color for desktop viewing by using media screen and set width to 750 */
+  
+
+  
